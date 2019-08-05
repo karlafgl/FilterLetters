@@ -1,7 +1,4 @@
-export const formularioBuscar = document.querySelector('#formulario-buscar')
-
-export const divBuscar = document.querySelector('#buscar')
-
-export const divMensajes = document.querySelector('#mensajes')
-
-export const divResultado = document.querySelector('#resultado')
+export const formularioBuscar = document.querySelector('#formulario-buscar'),
+             divBuscar = document.querySelector('#buscar'),
+             divMensajes = document.querySelector('#mensajes'),
+             divResultado = document.querySelector('#resultado');
