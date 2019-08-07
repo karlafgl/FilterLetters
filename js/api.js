@@ -7,7 +7,7 @@ export class API {
 
      async consultarAPI() {
           const url = await fetch(`https://api.lyrics.ovh/v1/${this.artista}/${this.cancion}`);
-
+          
           const respuesta = await url.json();
 
           return {
